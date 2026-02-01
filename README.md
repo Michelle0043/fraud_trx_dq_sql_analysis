@@ -88,12 +88,13 @@ Key metrics:
 
 The final output is a **Data Quality Scorecard** with one row per metric.
 
-dq_dimension	dq_metric	issue_count	total_count	issue_rate
-Completeness	Any NULL in critical fields	1004	3000	0.3347
-Uniqueness	Duplicate transaction_id	1243	3000	0.4143
-Accuracy	Originator balance mismatch	340	3000	0.1133
-Accuracy	Destination balance mismatch	1181	3000	0.3937
-Timeliness	Ingestion delay > 2 days	1800	3000	0.6
+| dq_dimension   | dq_metric                              | issue_count | total_count | issue_rate |
+|---------------|----------------------------------------|-------------|-------------|------------|
+| Completeness  | Any NULL in critical fields            | 1004        | 3000        | 0.3347     |
+| Uniqueness    | Duplicate transaction_id               | 1243        | 3000        | 0.4143     |
+| Accuracy      | Originator balance mismatch            | 340         | 3000        | 0.1133     |
+| Accuracy      | Destination balance mismatch           | 1181        | 3000        | 0.3937     |
+| Timeliness    | Ingestion delay > 2 days               | 1800        | 3000        | 0.6000     |
 
 
 ## Possible Extensions
